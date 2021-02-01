@@ -1,3 +1,3 @@
 const name = Deno.args[0];
 
-console.log(`Hello ${name}!`);
+console.log(`Hello ${name || "Seve"}!`);
