@@ -4,6 +4,35 @@
 
 > Seve 是最强发型师伍六七的英文名
 
+## Install
+
+### Install Latest Version
+
+**With Shell:**
+
+```sh
+curl -fsSL https://youngjuning.js.org/seve/install.sh | sh
+```
+
+**With PowerShell:**
+
+```sh
+iwr https://youngjuning.js.org/seve/install.ps1 -useb | iex
+```
+
+### Install Specific Version
+
+**With Shell:**
+
+```sh
+curl -fsSL https://youngjuning.js.org/seve/install.sh | sh -s v0.0.1
+```
+
+**With PowerShell:**
+
+```powershell
+$v="0.0.1"; iwr https://youngjuning.js.org/seve/install.ps1 -useb | iex
+```
 
 ## Known Issues
 
@@ -13,7 +42,7 @@ The program [`unzip`](https://linux.die.net/man/1/unzip) is a requirement for th
 
 ```sh
 $ curl -fsSL https://youngjuning.js.org/seve/install.sh | sh
-Error: unzip is required to install Tpc (see: https://github.com/youngjuning/seve#unzip-is-required).
+Error: unzip is required to install Seve (see: https://github.com/youngjuning/seve#unzip-is-required).
 ```
 
 **When does this issue occur?**
