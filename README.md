@@ -2,9 +2,9 @@
 
 <img src="https://i.loli.net/2021/02/02/ZAiUPLepyw5vT2k.png" width="300px"/>
 
-一款基于 Deno 的 CLI。
+A cli tools based on Deno.
 
-> Seve 是最强发型师伍六七的英文名
+> Seve is 伍六七's English name
 
 ## Install
 
